@@ -1,0 +1,29 @@
+@media (max-width:1023px) {
+
+    .encabezado {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .formulario {
+        width: 65%;
+    }
+
+    .mapa {
+        width: 65%;
+    }
+}
+
+@media (max-width:768px) {
+
+    .encabezado {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .mapa {
+        width: 80%;
+    }
+}

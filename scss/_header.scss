@@ -1,0 +1,33 @@
+@mixin anclas {
+    text-decoration: none;
+    color: white;
+}
+
+
+header {
+    border-bottom: 1px solid $color-blanco;
+    text-align: center;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 200px;
+    margin: auto;
+    padding: auto;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 10px;
+    padding: auto;
+}
+
+a {
+    @include anclas;
+    text-transform: uppercase;
+    font-weight: bold;
+}
